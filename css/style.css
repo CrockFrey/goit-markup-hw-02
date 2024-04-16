@@ -16,7 +16,9 @@ a{
 button{
     cursor: pointer;
 }
-
+address{
+        font-style: normal;
+}
 .site-logo{
         font-family: "Raleway", sans-serif;
         font-weight: 700;
@@ -31,9 +33,6 @@ button{
         color:#2e2f42;
 }
 
-.header-adress{
-        font-style: normal;
-}
 .header-nav-link{
         font-weight: 500;
         font-size: 16px;
@@ -110,8 +109,9 @@ button{
 .section-team-header{
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
+        text-transform: capitalize;
         text-align: center;
         color: #2e2f42;
 }
